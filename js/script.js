@@ -1,5 +1,6 @@
 (function() {
 
+
     var init = function () {
         // イベント処理
         events();
@@ -21,7 +22,7 @@
         });
 
         //
-        // ページ用見込み後にCSSアニメーション用のクラスを削除
+        // ページ読み込み後にCSSアニメーション用のクラスを削除
         //
         Barba.Dispatcher.on('transitionCompleted', function(HTMLElement, MouseEvent) {
             document.body.classList.remove('is-transition-start');
@@ -68,6 +69,7 @@
             console.log('遷移完了');
         }
     });
+
 
     init();
 })();
