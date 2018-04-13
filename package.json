@@ -1,0 +1,8 @@
+{
+  "name": "barbajs-qiita",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kokushin/barbajs-qiita.git",
+  "author": "kokushin <mail@kokush.in>",
+  "license": "MIT"
+}
